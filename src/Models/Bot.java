@@ -6,6 +6,13 @@ public class Bot extends Player {
 	
 	private BotPlayingStrategy  botPlayingStrategy;
 
+	
+	
+	public Bot(String name, String symbol) {
+		super(name, symbol);
+		// TODO Auto-generated constructor stub
+	}
+
 	public BotDifficulty getBotdifficulty() {
 		return botdifficulty;
 	}
