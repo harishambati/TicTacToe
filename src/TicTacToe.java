@@ -51,7 +51,7 @@ public class TicTacToe {
 
 		while(true) {
 				System.out.println("Game is in progress");
-				
+				System.out.println("Game in progress 2");
 				break;
 		}
 	}
