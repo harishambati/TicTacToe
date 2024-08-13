@@ -66,31 +66,13 @@ public class Game {
 	public static  GameBuilder getBuilder() {
 		return new GameBuilder();
 	}
-	
-
-//	public List<GameWinningStrategies> getGameStrategies() {
-//		return gameStrategies;
-//	}
-//
-//	public void setGameStrategies(List<GameWinningStrategies> gameStrategies) {
-//		this.gameStrategies = gameStrategies;
-//	}
-//	
-	
+		
 	public static class GameBuilder{
 		
 		private List<Player> players;
 		
 		private int boardSize;
 		
-		
-//		public GameBuilder(int noOfPalyers, int boardSize) {
-//			super();
-//			this.noOfPalyers = noOfPalyers;
-//			this.boardSize = boardSize;
-//		}
-
-	
 
 		public int getBoardSize() {
 			return boardSize;

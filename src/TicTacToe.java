@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import Models.Game;
 import Models.Player;
+import controller.GameController;
 
 public class TicTacToe {
 
@@ -42,11 +43,12 @@ public class TicTacToe {
 		}
 		
 		
-		Game game = Game.getBuilder().
-				setBoardSize(size).
-				setPlayers(new LinkedList<>()).
-				buildGame();
-		
+//		Game game = Game.getBuilder().
+//				setBoardSize(size).
+//				setPlayers(new LinkedList<>()).
+//				buildGame();
+		GameController gameController = new GameController();
+		Game game = gameController.createGame(size, listOfPalyers);
 		
 
 		while(true) {
