@@ -1,3 +1,4 @@
+package app;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
@@ -26,8 +27,6 @@ public class TicTacToe {
 			String name = sc.next();
 			System.out.println("Enter Symbol for Bot ");
 			String symbol = sc.next();
-//			System.out.println("Enter difficulty for Bot ");
-//			String symbol = sc.nextLine();
 			listOfPalyers.add(new Player(name, symbol));
 		}
 		
@@ -52,8 +51,10 @@ public class TicTacToe {
 		
 
 		while(true) {
+			
 				System.out.println("Game is in progress");
 				System.out.println("Game in progress 2");
+
 				break;
 		}
 	}
